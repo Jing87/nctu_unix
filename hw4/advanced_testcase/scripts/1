@@ -1,0 +1,20 @@
+start
+break 0x4017b4
+break 0x4017bd
+break 0x401779
+cont
+get rip
+disasm 0x4017b4
+dump 0x4017b4
+si
+si
+si
+get rip
+disasm 0x4017bd
+dump 0x4017bd
+cont
+get rip
+disasm 0x401779
+dump 0x401779
+cont
+cont

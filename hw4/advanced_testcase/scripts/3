@@ -1,0 +1,25 @@
+start
+b 0x401784
+b 0x401793
+b 0x4017a2
+cont
+get rip
+get rax
+set rax 0x498004
+get rax
+si
+get rdi
+cont
+get rip
+get rax
+set rax 0x49800d
+get rax
+si 
+get rdi
+cont
+get rip
+get rax
+set rax 0x498016
+si
+get rdi
+cont

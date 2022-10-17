@@ -1,0 +1,27 @@
+start
+break 0x401d9a
+cont
+get rip
+get rdi
+get rsi
+get rdx
+get rcx
+get r8
+get r9
+set rdi 0xdead
+set rsi 0xbeaf
+set rdx -1
+set rcx 0x00abcdef
+set r8 0
+set r9 0
+get rdi
+get rsi
+get rdx
+get rcx
+get r8
+get r9
+cont
+run
+cont
+r
+c

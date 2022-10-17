@@ -1,0 +1,39 @@
+start
+b 0x40180f
+b 0x4017de
+b 0x401808
+b 0x4017a5
+cont
+set rip 0x4017cf
+si
+get rip
+si
+get rip
+cont
+set rip 0x4017f9
+si
+get rip
+si
+get rip
+cont
+get rip
+set rip 0x4017f9
+si
+get rip
+si
+get rip
+cont
+get rip
+set rip 0x4017cf
+si
+get rip
+si
+get rip
+cont
+get rip
+set rip 0x40178c
+si
+get rip
+si
+get rip
+cont

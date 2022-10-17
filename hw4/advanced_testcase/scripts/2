@@ -1,0 +1,27 @@
+start
+b 0x401760
+cont
+get rax
+get rip
+disasm 0x401760
+cont
+get rax
+get rip
+cont
+get rax
+get rip
+cont
+get rax
+get rip
+cont
+get rax
+get rip
+cont
+get rax
+get rip
+cont
+get rax
+get rip
+set rax 0x1000
+get rax
+cont
